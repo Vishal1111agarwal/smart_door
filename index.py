@@ -24,7 +24,7 @@ def cleanup():
 @app.route('/')
 def index():
 	templateData = {
-		'pins' : pins    ###PINs NAM KE PURE DICTONARY SEND HOGE PINS NAME SAI
+		'pins' : pins    ###SAVING PINS DICTIONARY WITH SAME NAME TO SEND TO WEBPAGE
       }
 	return render_template('index.html', **templateData)
 
